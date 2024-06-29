@@ -1,0 +1,121 @@
+.logo img {
+    width: 204px;
+    height: 68px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+}
+
+.right ul {
+    display: flex;
+    gap: 34px
+}
+
+.right ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.right ul li span {
+    padding: 0 9px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+.second{
+    background-color:  #f9f9f9;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.first span {
+    font-size: 50px;
+}
+
+section span img {
+    width: 115px;
+    margin: 0 20px;
+}
+.first p{
+    font-size: 23px;
+    width: 44vw;
+    text-align: center;
+
+}
+.btn{
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.green{
+    background-color: #5cb85c ;
+
+}
+.flex{
+    display: flex;
+}
+.small{
+    font-size: 12px;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    padding:23px;
+    background: #f9f9f9;
+    border-radius:12px ;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.download :nth-child(2){
+    font-size: 14px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+.download img{
+    padding: 0px 12px;
+}
+
+@media screen and (max-width:900px){
+    .grid{
+        background-color: red;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+}
+
